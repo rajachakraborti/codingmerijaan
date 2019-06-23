@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class FindSum {
     public static void main(String[] args) {
-        int [] ar = new int []{1,2,3,4,5};
-        System.out.println(new FindSum().check(ar, 18, ar.length));
+        int [] ar = new int []{2,3,7,8,10};
+        System.out.println(new FindSum().check(ar, 11, ar.length));
     }
 
     private boolean check(int[] ints, int target, int i ) {
